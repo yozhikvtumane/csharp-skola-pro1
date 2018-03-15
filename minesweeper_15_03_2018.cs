@@ -84,6 +84,11 @@ namespace ConsoleApp3
                 VypisPole(pole);
                 if (konec == 0 && JeVseOdkryto(pole))
                     konec = 1;
+                
+                if (konec < 0)
+                    Console.WriteLine("Prohral jsi!");
+                else
+                    Console.WriteLine("Vyhral jsi!");
             }
 
             Console.ReadLine();
