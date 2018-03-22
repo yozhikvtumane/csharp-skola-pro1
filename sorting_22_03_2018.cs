@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace ConsoleApp4_22_03
 {
@@ -14,22 +15,63 @@ namespace ConsoleApp4_22_03
         static void Main(string[] args)
         {
             int[] a = new int[200];
+            int[] b = new int[200];
+            int[] c = new int[200];
+            int[] d = new int[200];
+            int[] e = new int[200];
+
 
             for (int i = 0; i < a.Length; i++)
             {
-                a[i] = random.Next(a.Length);
-                
+                int x = random.Next(a.Length);
+                //a[i] = random.Next(a.Length);
+                a[i] = x;
+                b[i] = x;
+                c[i] = x;
+                d[i] = x;
+                e[i] = x;
+
+
+
             }
 
             //SelectionSort(a);
             //nsertionSort(a);
             //BubbleSort(a);
-            QuickSort(a);
+            //QuickSort(a);
+            Serad(a, SelectionSort);
+
 
             for (int i = 0; i < a.Length; i++)
                 Console.Write("{0}, " , a[i]);
 
             Console.ReadLine();
+        }
+
+
+        static ulong PocetKroku;
+        delegate void RadiciMetoda(int[] a);
+
+        static void Serad(int[] a, RadiciMetoda metoda)
+        {
+            Console.WriteLine(metoda.Method.Name);
+            PocetKroku = 0;
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
+            metoda(a);
+            double cas = sw.Elapsed.TotalMilliseconds;
+            sw.Stop();
+            Console.WriteLine("Kroku: {0}" , PocetKroku);
+            Console.WriteLine("Cas:   {0} ms ", cas);
+            Console.WriteLine();
+
+
+
+        }
+
+        private static void LinqSort(int[] a)
+        {
+            a = a.OrderBy(x => x).ToArray();
         }
 
         private static void QuickSort(int[] a)
@@ -92,6 +134,7 @@ namespace ConsoleApp4_22_03
                 {
                     if (a[i] < a[iMin])
                         iMin = i;
+                        PocetKroku++;
 
                 }
 
