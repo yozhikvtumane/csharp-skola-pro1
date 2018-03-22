@@ -87,6 +87,7 @@ namespace ConsoleApp4_22_03
             {
                 if (a[i] < a[iFrom])
                     Prohod(a , i , ++iMez);
+                PocetKroku++;
             }
             Prohod(a, iFrom, iMez);
             QuickSort(a, iFrom, iMez);
@@ -102,6 +103,7 @@ namespace ConsoleApp4_22_03
                     if (a[j + 1] < a[j])
                     {
                         Prohod(a, j, j + 1);
+                        PocetKroku++;
                         prohodil = true;
                     }
                 if (!prohodil) return;
@@ -118,6 +120,7 @@ namespace ConsoleApp4_22_03
                 {
                     a[j] = a[j - 1];
                     j--;
+                    PocetKroku++;
                 }
 
                 a[j] = p;
