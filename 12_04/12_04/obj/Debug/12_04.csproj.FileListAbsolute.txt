@@ -1,0 +1,7 @@
+C:\Users\matvean1\source\repos\12_04\12_04\bin\Debug\12_04.exe.config
+C:\Users\matvean1\source\repos\12_04\12_04\bin\Debug\12_04.exe
+C:\Users\matvean1\source\repos\12_04\12_04\bin\Debug\12_04.pdb
+C:\Users\matvean1\source\repos\12_04\12_04\obj\Debug\12_04.csprojResolveAssemblyReference.cache
+C:\Users\matvean1\source\repos\12_04\12_04\obj\Debug\12_04.csproj.CoreCompileInputs.cache
+C:\Users\matvean1\source\repos\12_04\12_04\obj\Debug\12_04.exe
+C:\Users\matvean1\source\repos\12_04\12_04\obj\Debug\12_04.pdb

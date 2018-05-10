@@ -1,0 +1,7 @@
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\bin\Debug\ConsoleApp4_19_04.exe.config
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\bin\Debug\ConsoleApp4_19_04.exe
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\bin\Debug\ConsoleApp4_19_04.pdb
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\obj\Debug\ConsoleApp4_19_04.csprojResolveAssemblyReference.cache
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\obj\Debug\ConsoleApp4_19_04.csproj.CoreCompileInputs.cache
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\obj\Debug\ConsoleApp4_19_04.exe
+C:\Users\matvean1\source\repos\ConsoleApp4_19_04\ConsoleApp4_19_04\obj\Debug\ConsoleApp4_19_04.pdb
